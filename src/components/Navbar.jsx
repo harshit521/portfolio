@@ -9,22 +9,22 @@ const Navbar = () => {
   return (
     <div className='fixed bottom-6 left-1/2 -translate-x-1/2
     flex justify-center gap-x-28
-    border border-gray-400 rounded-full
+     rounded-full
     px-16 py-4 shadow-2xl
-    bg-white'>
+    bg-black'>
       <NavLink to='/' className={({ isActive }) =>
       isActive
-        ? "text-gray-800 scale-125 transition"
+        ? "text-gray-100 scale-125 transition"
         : "text-gray-400"
     }><RiHomeLine /></NavLink>
       <NavLink to='/projects' className={({ isActive }) =>
       isActive
-        ? "text-gray-800 scale-125 transition"
+        ? "text-gray-100 scale-125 transition"
         : "text-gray-400"
     }><RiGitRepositoryFill /></NavLink>
       <NavLink to='/contacts' className={({ isActive }) =>
       isActive
-        ? "text-gray-800 scale-125 transition"
+        ? "text-gray-100 scale-125 transition"
         : "text-gray-400"
     }><RiMailLine /></NavLink>
     </div>

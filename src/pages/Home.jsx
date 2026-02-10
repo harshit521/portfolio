@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <><div>
     <div className='px-72 items-center justify-center pt-[64px] '>
-    <div className='border-4 rounded-xl shadow-[0_0_50px_rgba(15,200,200,20)]'>
+    <div className='border-4 rounded-xl shadow-[0_0_500px_rgba(200,200,200,20)]'>
       <div className='flex justify-center items-center gap-8 mt-16'>
         <div>
           <img src={pfp} alt='pfp' className='h-48 w-48 rounded-full object-cover'/>
