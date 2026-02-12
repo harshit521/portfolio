@@ -9,5 +9,9 @@ export default {
     extend: {},
   },
   plugins: [],
+  fontFamily: {
+    inter: ["Inter", "sans-serif"],
+  }
+
 }
 
